@@ -1,0 +1,46 @@
+section{
+    border-radius: 5px;
+    article{border-style: outset; text-align: center;
+        h2{font-weight: bolder;                 
+        }
+    }
+}
+
+#socialmedia{
+    text-align: center;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+        &:hover{
+            font-size: 20px;
+            color: white;
+            background-color: #0a4275;
+            font-weight: lighter;    }
+}
+
+
+.animacionTexto{
+    animation-name: texto;
+    animation-duration: 2s;
+  }
+  
+  
+  
+  @keyframes texto{
+    from{
+      transform: translateX(1000px);
+    }
+  
+    to{
+      transform: translateX(0);
+    }
+  }
+
+
+  .estilo_form{
+    background-color: #0a4275;
+    color: white;
+  }
+   

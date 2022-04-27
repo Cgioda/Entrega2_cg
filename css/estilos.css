@@ -1,38 +1,45 @@
-.alineado_texto {
+section {
+  border-radius: 5px;
+}
+section article {
+  border-style: outset;
   text-align: center;
 }
-
-
-a:hover{
-  font-size: 20px;
-}
-
-.color_de_descripcion{
-  color: white;
+section article h2 {
   font-weight: bolder;
-    text-shadow: 2px 2px 2px black;
 }
 
-.color_de_descripcion_texto{  color: white;
-  font-weight: bold;
-    text-shadow: 2px 2px 2px black;  
+#socialmedia {
+  text-align: center;
+  font-weight: bolder;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-size: 20px;
+  color: white;
+  background-color: #0a4275;
+  font-weight: lighter;
+}
 
-
-.animacionTexto{
+.animacionTexto {
   animation-name: texto;
   animation-duration: 2s;
 }
 
-
-
-@keyframes texto{
-  from{
+@keyframes texto {
+  from {
     transform: translateX(1000px);
   }
-
-  to{
+  to {
     transform: translateX(0);
   }
 }
+.estilo_form {
+  background-color: #0a4275;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
